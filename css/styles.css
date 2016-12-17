@@ -2,32 +2,66 @@
   font-family: "Georgia";
 }*/
 
-ul {
-  padding-left: 0;
+h1 {
+  text-align: center;
+  margin: 25px 0 25px 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 25px 0 25px 0;
+}
+
+img {
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin: auto;
+}
+
+.jumbotron {
+  background-image: url(../images/bananas-header.jpg);
+  background-size: cover;
+  height: 450px;
 }
 
 .container {
-  padding: 0 130px 0 130px;
-  border: 1px solid red;
+  padding: 0 150px 30px 150px;
+  /*border: 1px solid red;*/
 }
 
 .row {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   padding: 20px 0 20px 0;
 }
 
 .col-md-6 {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .col-md-8 {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .col-md-4 {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .navHeader {
   text-align: center;
+}
+
+.texture-good {
+  background-color: #e9fee3;
+}
+
+.texture-bad {
+  background-color: #f8e3e3;
+}
+
+.mainText {
+  padding: 20px 20px 20px 20px;
+}
+
+.texture-text {
+  padding: 20px 20px 20px 20px;
 }
